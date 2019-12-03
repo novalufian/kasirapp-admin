@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="1000.0">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="1000.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: -25px;" text="lorem ipsum">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <Text fill="#212121" layoutX="300.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 18px;" text="Main ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#212121" layoutX="348.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 18px;" text="menu">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button alignment="BOTTOM_CENTER" layoutX="300.0" layoutY="200.0" mnemonicParsing="false" prefHeight="250.0" prefWidth="175.0" style="-fx-background-color: #46b3e6; -fx-background-radius: 15px;">
+               <graphic>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-y: -15px;" text="Transaksi kasir" textAlignment="CENTER" wrappingWidth="149.185546875" y="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button alignment="BOTTOM_CENTER" layoutX="485.0" layoutY="200.0" mnemonicParsing="false" prefHeight="250.0" prefWidth="175.0" style="-fx-background-color: #fa4252; -fx-background-radius: 15px;">
+               <graphic>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-y: -15px;" text="Hutang piutang" textAlignment="CENTER" wrappingWidth="149.185546875" y="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button alignment="BOTTOM_LEFT" layoutX="700.0" layoutY="200.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="250.0" style="-fx-background-color: #f1bc31; -fx-background-radius: 15px;">
+               <graphic>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-y: -10px; -fx-translate-x: 10px;" text="Transaksi mitra" wrappingWidth="149.185546875" y="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button alignment="BOTTOM_LEFT" layoutX="700.0" layoutY="330.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: #00918e; -fx-background-radius: 15px;">
+               <graphic>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-y: -10px; -fx-translate-x: 10px;" text="Buat Akun baru" wrappingWidth="87.185546875" y="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button alignment="BOTTOM_LEFT" layoutX="830.0" layoutY="330.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: #6915cf; -fx-background-radius: 15px;">
+               <graphic>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-y: -10px; -fx-translate-x: 10px;" text="Stok Barang" wrappingWidth="80.185546875" y="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Text fill="#212121" layoutX="372.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 18px;" text="menu">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#212121" layoutX="303.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 18px;" text="Setting ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button alignment="BOTTOM_CENTER" layoutX="300.0" layoutY="554.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #fa4252; -fx-background-radius: 15px;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-y: -15px;" text="Connection setting" textAlignment="CENTER" wrappingWidth="149.185546875" y="10.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
